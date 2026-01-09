@@ -1,0 +1,65 @@
+.hero {
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, var(--accent-blue) 0%, var(--surface) 100%);
+    text-align: center;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    max-width: 800px;
+    line-height: 1.1;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: var(--text-main);
+    max-width: 600px;
+    margin-bottom: 2.5rem;
+}
+
+.ctaGroup {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button {
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+.primary {
+    background-color: var(--primary);
+    color: white;
+    border: 2px solid var(--primary);
+}
+
+.secondary {
+    background-color: white;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5rem;
+    }
+}

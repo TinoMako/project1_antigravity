@@ -1,67 +1,67 @@
 [
     {
         "id": "1_project_setup",
-        "story": "As a developer, I want to initialize a Next.js application with TypeScript and a Vanilla CSS design system (Blue/Green theme) so that I have a solid foundation for the platform.",
+        "story": "Initialize Next.js with TypeScript and design system.",
         "priority": 1,
         "passes": true
     },
     {
         "id": "2_landing_page",
-        "story": "As a visitor, I want to see a Landing Page with a hero section, impact statistics (6000+ SWs, etc.), and clear 'Register' CTAs, so I understand the platform's value.",
+        "story": "Landing Page with hero, stats, CTAs.",
         "priority": 2,
-        "passes": false
+        "passes": true
     },
     {
         "id": "3_sw_registration",
-        "story": "As a Social Worker, I want a multi-step registration form to input my personal info, qualifications, and upload documents, so I can join the platform.",
+        "story": "Multi-step Social Worker registration form.",
         "priority": 3,
-        "passes": false
+        "passes": true
     },
     {
         "id": "4_org_registration",
-        "story": "As an Organization, I want a registration form to input my details (NGO/Gov), contact info, and upload verification docs, so I can post opportunities.",
+        "story": "Organization registration form.",
         "priority": 4,
         "passes": false
     },
     {
         "id": "5_sw_dashboard",
-        "story": "As a Social Worker, I want a dashboard showing my application stats, recommended opportunities, and profile status, so I can manage my activities.",
+        "story": "Social Worker dashboard.",
         "priority": 5,
         "passes": false
     },
     {
         "id": "6_org_dashboard",
-        "story": "As an Organization, I want a dashboard showing active opportunities, recent applications, and intervention tracking, so I can manage my recruitment.",
+        "story": "Organization dashboard.",
         "priority": 6,
         "passes": false
     },
     {
         "id": "7_search_browse",
-        "story": "As a user, I want to search and filter opportunities by location, skills, and type, and view them in a card layout or map, so I can find relevant work.",
+        "story": "Opportunity search and browse.",
         "priority": 7,
         "passes": false
     },
     {
         "id": "8_opportunity_detail",
-        "story": "As a user, I want to view detailed information about an opportunity (skills, map, org details) and apply for it, so I can take action.",
+        "story": "Opportunity detail page.",
         "priority": 8,
         "passes": false
     },
     {
         "id": "9_application_tracking",
-        "story": "As a Social Worker, I want to see a list of my applications with statuses (Applied, Accepted, etc.) and filters, so I know where I stand.",
+        "story": "Application tracking page.",
         "priority": 9,
         "passes": false
     },
     {
         "id": "10_intervention_mgmt",
-        "story": "As an Organization, I want to manage active interventions with progress indicators and reporting tools, so I can track impact.",
+        "story": "Intervention management.",
         "priority": 10,
         "passes": false
     },
     {
         "id": "11_admin_dashboard",
-        "story": "As an Admin, I want to view platform statistics and manage users/content, so I can ensure platform health.",
+        "story": "Admin dashboard.",
         "priority": 11,
         "passes": false
     }

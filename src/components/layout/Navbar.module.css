@@ -1,0 +1,72 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--surface);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navLinks {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.link {
+    color: var(--text-main);
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.link:hover {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.authButtons {
+    display: flex;
+    gap: 1rem;
+}
+
+.button {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.login {
+    color: var(--primary);
+    background: transparent;
+}
+
+.register {
+    background-color: var(--primary);
+    color: white;
+}
+
+.register:hover {
+    background-color: #0c3b65;
+    /* Darker shade of primary */
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .navLinks {
+        display: none;
+        /* Simple mobile hide for now, burger menu later */
+    }
+}
