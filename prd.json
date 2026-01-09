@@ -27,7 +27,7 @@
         "id": "5_sw_dashboard",
         "story": "Social Worker dashboard.",
         "priority": 5,
-        "passes": false
+        "passes": true
     },
     {
         "id": "6_org_dashboard",
