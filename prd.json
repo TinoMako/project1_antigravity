@@ -39,7 +39,7 @@
         "id": "7_search_browse",
         "story": "Opportunity search and browse.",
         "priority": 7,
-        "passes": false
+        "passes": true
     },
     {
         "id": "8_opportunity_detail",
