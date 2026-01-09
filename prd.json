@@ -33,7 +33,7 @@
         "id": "6_org_dashboard",
         "story": "Organization dashboard.",
         "priority": 6,
-        "passes": false
+        "passes": true
     },
     {
         "id": "7_search_browse",
