@@ -63,6 +63,6 @@
         "id": "11_admin_dashboard",
         "story": "Admin dashboard.",
         "priority": 11,
-        "passes": false
+        "passes": true
     }
 ]

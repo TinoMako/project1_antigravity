@@ -1,0 +1,188 @@
+.adminContainer {
+    padding: 2rem;
+    max-width: 1400px;
+    background-color: #f8fafc;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    color: #1e293b;
+    font-weight: 700;
+}
+
+.statsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.statCard {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid var(--primary);
+}
+
+.statValue {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0f172a;
+    display: block;
+}
+
+.statLabel {
+    color: #64748b;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.sectionGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.section {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+.sectionTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* User Table */
+.tableContainer {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.table th {
+    text-align: left;
+    padding: 1rem;
+    background: #f1f5f9;
+    color: #475569;
+    font-weight: 600;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.table td {
+    padding: 1rem;
+    border-bottom: 1px solid #e2e8f0;
+    color: #334155;
+}
+
+.roleBadge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 99px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.roleWorker {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.roleOrg {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.actionBtn {
+    background: transparent;
+    border: 1px solid #cbd5e1;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+    color: #475569;
+}
+
+.actionBtn:hover {
+    background: #f8fafc;
+    border-color: #94a3b8;
+}
+
+.deleteBtn {
+    color: #ef4444;
+    border-color: #fecaca;
+    margin-left: 0.5rem;
+}
+
+.deleteBtn:hover {
+    background: #fef2f2;
+    border-color: #ef4444;
+}
+
+/* Support List */
+.ticketList {
+    list-style: none;
+}
+
+.ticketItem {
+    padding: 1rem 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.ticketItem:last-child {
+    border-bottom: none;
+}
+
+.ticketHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.ticketSubject {
+    font-weight: 500;
+    color: #0f172a;
+}
+
+.ticketPriority {
+    font-size: 0.75rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 4px;
+    background: #ffedd5;
+    color: #c2410c;
+    font-weight: 600;
+}
+
+.ticketMeta {
+    font-size: 0.85rem;
+    color: #64748b;
+}
+
+@media (max-width: 1000px) {
+    .sectionGrid {
+        grid-template-columns: 1fr;
+    }
+}
