@@ -45,7 +45,7 @@
         "id": "8_opportunity_detail",
         "story": "Opportunity detail page.",
         "priority": 8,
-        "passes": false
+        "passes": true
     },
     {
         "id": "9_application_tracking",

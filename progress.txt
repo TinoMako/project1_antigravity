@@ -3,3 +3,4 @@ Fri Jan  9 14:14:19 SAST 2026: [4_org_registration] COMPLETE - Organization regi
 Fri Jan  9 14:18:03 SAST 2026: [5_sw_dashboard] COMPLETE - Dashboard with stats and recommendations
 Fri Jan  9 14:19:19 SAST 2026: [6_org_dashboard] COMPLETE - Dashboard with active posts and applicants
 Fri Jan  9 14:21:43 SAST 2026: [7_search_browse] COMPLETE - Opportunity Search page with filters and map toggle
+Fri Jan  9 14:30:55 SAST 2026: [8_opportunity_detail] COMPLETE - Dynamic detail page with apply action
