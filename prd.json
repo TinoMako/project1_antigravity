@@ -51,7 +51,7 @@
         "id": "9_application_tracking",
         "story": "Application tracking page.",
         "priority": 9,
-        "passes": false
+        "passes": true
     },
     {
         "id": "10_intervention_mgmt",
