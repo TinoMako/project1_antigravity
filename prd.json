@@ -57,7 +57,7 @@
         "id": "10_intervention_mgmt",
         "story": "Intervention management.",
         "priority": 10,
-        "passes": false
+        "passes": true
     },
     {
         "id": "11_admin_dashboard",
