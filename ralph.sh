@@ -34,6 +34,11 @@ for ((i=1; i<=MAX_LOOPS; i++)); do
     # 2. Agent finds next ID.
     # 3. Agent writes code.
     # 4. Agent runs tests.
+    echo "Running tests..."
+    if ! npm test -- run; then
+        echo "Tests failed! Stopping loop."
+        exit 1
+    fi
     # 5. Agent updates PRD to "passes": true.
     
 done
